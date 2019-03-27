@@ -10,10 +10,10 @@ const Main = () => {
     <View style={styles.centered}>
       <Header title={headerTitle} />
       <Button
-        style={{ padding: 8 }}
+        style={{ padding: 8, alignSelf: 'center' }}
         onPress={() => alert('pressed me once more...')}
       >
-        <Text style={{ color: 'yellow' }}>my Button</Text>
+        <Text style={{ color: 'yellow' }}>mein zentraler Button</Text>
       </Button>
     </View>
   );
