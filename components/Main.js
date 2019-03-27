@@ -7,9 +7,7 @@ const headerTitle = 'Ick bin der Header, wa.';
 const Main = () => {
   return (
     <View style={styles.centered}>
-      {
-        //<Header title={headerTitle} />
-      }
+      <Header title={headerTitle} />
     </View>
   );
 };
