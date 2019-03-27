@@ -10,10 +10,20 @@ const Main = () => {
     <View style={styles.centered}>
       <Header title={headerTitle} />
       <Button
-        style={{ padding: 8, alignSelf: 'center' }}
-        onPress={() => alert('pressed me once more...')}
+        style={{
+          padding: 8,
+          alignSelf: 'center',
+          backgroundColor: 'red'
+        }}
+        onPress={() => alert('You pressed me...')}
       >
-        <Text style={{ color: 'yellow' }}>mein zentraler Button</Text>
+        <Text
+          style={{
+            color: 'yellow'
+          }}
+        >
+          mein roter Button
+        </Text>
       </Button>
     </View>
   );
